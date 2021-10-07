@@ -1,0 +1,37 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {    
+    .nav-bar {
+        display: flex;
+        justify-content: space-between;
+        background-color: yellow;
+        .nav-bar-order-jump {
+            display: flex;
+            flex-direction: column;
+            margin-top: 50px;
+            .order-link-button-wrapper {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                text-align: center;
+                .button {
+                    display: flex;
+                    justify-content: space-between;
+                    text-align: center;
+                    background-color: #ffffff;
+                    width: 100px;
+                }
+            }
+
+        
+        .order-details-page {
+            display: flex;
+            flex-direction: column;
+            margin-right: 50px;
+        }
+        }
+    }
+}
